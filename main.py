@@ -90,3 +90,4 @@ if __name__ == "__main__":
 
 
 # TODO: Erweiterung basierend auf Sprache in Metadaten von HTML. Wenn es DE ist soll er das deutsche einlesen
+# TODO: Prompt-Strategien anschauen und entsprechend optimieren
