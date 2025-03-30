@@ -68,6 +68,7 @@ def main():
     chunks = split_text_into_chunks(full_text)
     
     job = read_job_post("https://www.akkodis.com/de-de/karriere/jobs/data-analytics-engineer-wmd-hybrides-arbeiten-remote-prsenz-sindelfingen/729436001900?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic")
+    chunks_job = split_text_into_chunks(job)
     ats_check()
 
 if __name__ == "__main__":
